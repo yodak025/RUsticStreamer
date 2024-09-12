@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube 2015</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="/client.js" defer></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>YouTube</h1>
+    </div>
+
+    <div id="username-input" style="display: block;">
+        <input type="text" id="username" class="user-input" placeholder="Introduce tu usuario">
+        <button id="submit-username" class="user-btn">Enviar</button>
+    </div>
+
+    <div id="menu" class="nav" style="display: none;">
+        <a href="#">Inicio</a>
+        <button id="streamers-btn">Show Streamers</button>
+    </div>
+
+    <div class="content">
+        <div id="video-container" class="content" style="display: none;">
+           
+        </div>
+
+        <div id="video-player" class="content" style="display: none;">
+
+            <div class="option">
+                <input id="use-stun" type="checkbox"/>
+                <label for="use-stun">Use STUN server</label>
+            </div>
+            <button id="start" onclick="start()">Start</button>
+            <button id="stop" style="display: none" onclick="stop()">Stop</button>
+    
+            <div id="media">
+                <audio id="audio" autoplay="true"></audio>
+                <video id="video" autoplay="true" playsinline="true"></video>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

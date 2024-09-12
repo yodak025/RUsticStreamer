@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #cc181e;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+}
+
+.user-btn {
+    background: #4CAF50;
+    color: white;
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    top: 120px;
+    left: 40%;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.user-btn:hover {
+    background: #45a049;
+}
+
+.user-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+    top: 120px;
+    left: 40%;
+    font-size: 12px;
+    width: 200px;
+}
+
+.nav {
+    background-color: #c9c9c9;
+    padding: 10px;
+    position: fixed;
+    top: 120px;
+    left: 0px;
+    text-align: center;
+    height: 20px;
+    width: 100%;
+}
+
+.nav a {
+    margin-right: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    margin: 15px;
+    margin-top: 160px;
+    
+}
+
+.video {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#start, #stop {
+    padding: 8px 16px;
+    position: center;
+}
+
+video {
+    width: 100%;
+}
+
+.option {
+    margin-bottom: 8px;
+}
+
+#media {
+    max-width: 1280px;
+}

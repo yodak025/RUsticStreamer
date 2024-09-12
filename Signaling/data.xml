@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<data-base>
+    <streamers>
+
+
+        <streamer>
+            <address>127.0.0.1:32869</address>
+            <name>RadioheadJust.mp4</name>
+            <call_id>d0550804-8e41-4043-ab5c-1844a7a809fd</call_id>
+            <info>
+                <image>RadioheadJust.mp4</image>
+                <description>RadioheadJust.mp4</description>
+            </info>
+        </streamer>
+        <streamer>
+            <address>127.0.0.1:33723</address>
+            <name>LifeCouldBeADream.mp4</name>
+            <call_id>c67f74b9-2843-481b-9af0-49495c11abc8</call_id>
+            <info>
+                <image>LifeCouldBeADream.mp4</image>
+                <description>LifeCouldBeADream.mp4</description>
+            </info>
+        </streamer>
+        <streamer>
+            <address>127.0.0.1:39160</address>
+            <name>ThatsWhatSheSaid.mp4</name>
+            <call_id>a956bd79-3ee4-4787-985d-6191f0107ce6</call_id>
+            <info>
+                <image>ThatsWhatSheSaid.mp4</image>
+                <description>ThatsWhatSheSaid.mp4</description>
+            </info>
+        </streamer>
+        <streamer>
+            <address>127.0.0.1:44501</address>
+            <name>WORK.mp4</name>
+            <call_id>aaebd755-54c7-4302-ae09-7b17a2ced01d</call_id>
+            <info>
+                <image>WORK.mp4</image>
+                <description>WORK.mp4</description>
+            </info>
+        </streamer>
+    </streamers>
+    <sessions/>
+</data-base>
